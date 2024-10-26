@@ -5,7 +5,7 @@
 #include <locale.h>
 
 // TODO 
-// 1) switch from long to unsigned long
+// 1) switch from long to unsigned long - that will enable calculations up to 20 digits
 // 2) add timer to show how long it took to reach each armstrong number
 
 bool testNumber(const long num) {
