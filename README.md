@@ -5,8 +5,8 @@ some C code including finding armstrong numbers
 Building
 
 From a terminal
-gcc -o armlong armlong.c
-gcc -o armstrong armstrong.c
+gcc -O2 -o armlong armlong.c
+gcc -O2 -o armstrong armstrong.c
 
 Execution
 
