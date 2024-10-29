@@ -6,13 +6,18 @@ Building
 
 From a terminal
 gcc -O2 -o armlong armlong.c
-gcc -O2 -o armstrong armstrong.c
+gcc -O2 -o armorig armstrong.c
 
 Execution
 
 from same directory as the code
 ./armlong
 ./armstrong
+
+Guilding armstrong c++ code 
+cd armstrong/
+c++ -std=c++11 -o armnew -O2 main.cpp
+./armnew
 
 Notes
 
